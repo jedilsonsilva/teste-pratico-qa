@@ -1,0 +1,22 @@
+{
+	"info": {
+		"_postman_id": "42f74116-2e90-410a-b30f-b41dd07f2df2",
+		"name": "RestfulBooker_Environment",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/environment.json",
+		"_exporter_id": "123456"
+	},
+	"values": [
+		{
+			"key": "base_url",
+			"value": "https://restful-booker.herokuapp.com",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "token",
+			"value": "",
+			"type": "secret",
+			"enabled": true
+		}
+	]
+}
