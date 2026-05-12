@@ -49,10 +49,12 @@ npx playwright install
 npx playwright test
 ```
 
-**3. Visualizar Relatório de Testes:**
+**3. Visualizar Relatório e Evidências (Vídeos e Prints):**
 ```bash
 npx playwright show-report
 ```
+*O Playwright foi configurado (`playwright.config.ts`) para gerar e anexar evidências automaticamente para **todos os testes** (mesmo os testes que passaram com sucesso). Ao abrir o relatório em HTML gerado pelo comando acima, basta clicar em qualquer teste para visualizar o **Vídeo da Automação**, o **Screenshot Final** e o **Trace Viewer** (linha do tempo de execução).*
+
 
 ## 🎥 Evidência de Execução (Vídeo)
 *(Insira aqui o link do vídeo gravado/uploadado demonstrando a execução dos testes e validações).*
